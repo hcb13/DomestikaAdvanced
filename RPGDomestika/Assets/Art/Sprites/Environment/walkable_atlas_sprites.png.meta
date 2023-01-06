@@ -1,0 +1,2357 @@
+fileFormatVersion: 2
+guid: 0767da9388f137e49955542db7ce73b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ab327be0901064f96c6ca2a2138394
+      internalID: -2032006055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 64
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5184946, y: 0.059833527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddc0ad1649d3a84ea8e17423b33eace
+      internalID: 741190664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd5483a39b21cd48949f45aa3185c04
+      internalID: -1870897015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 448
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704cab03c2944f47934ef5c0ee77f22
+      internalID: 99694366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 448
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d449e33a40572fc46b529f0be096a88e
+      internalID: 362197821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 401
+        width: 92
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d571c09341d5c468716f48d13cd1e2
+      internalID: 1068153340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a36ffcf9800c1b49b7d8b74d9dba338
+      internalID: -1021256415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80548f323b025364082eaa86207f798e
+      internalID: 1652220177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 352
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8027f7f4d8bc2d44d898828a684c6bf3
+      internalID: 1334091578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f7d897aceb00e49a9063dbd7bfa006
+      internalID: -1191776702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 359
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b411669a7b270624596af8ae4e7e1c72
+      internalID: -736893235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167dd987f44af84eb7cf14be0192f18
+      internalID: -1110697626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dc66f8b900eb44ca40ea4749538563
+      internalID: 1378267075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 368
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471cd4459156b174a8e3124f5487fd4f
+      internalID: -339047822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8109a64b0f948dd449fde9e68c0bfe12
+      internalID: 1130507332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 389
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce521472ec7ada4d988b5cb33b2ba46
+      internalID: 1647420492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf4cb0c8256c74f9d7713311c79cf2
+      internalID: -1475616049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf09b69dd367ee046abb765b34160819
+      internalID: -2044329521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 385
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec255718af57d499cfa38b76d3ec27
+      internalID: 2026958258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbaf8c2b226350499a166ddf5d40673
+      internalID: -24812850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 370
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1835912b1ad822340bfc299385a80c10
+      internalID: -2085159996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 370
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3cc058732565418d5480f20951b48
+      internalID: -1755405514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 370
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0430c1a756ec76c49901e26a49fd0744
+      internalID: -953104884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 370
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585fe268fb3f6ba4798a367a6b5f2b8c
+      internalID: 28601739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 370
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f599f07d3c243b841bf8267e0d011078
+      internalID: -2025549251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4c41a0b776e9499e3221dd2c919fb
+      internalID: 1077052405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 352
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92f0d1987a18ae4085556e3a2365cef
+      internalID: 1287428373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0a5c91d9bf8d74d89972d60c366cba
+      internalID: -1640916867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 336
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719e16d1e1e4954a88884c04050f1fb
+      internalID: 1119318631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e42c84e21835a48886a17540734815
+      internalID: 1867102528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 337
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe28c22387ab80449529a98a97b878d
+      internalID: 1637727503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 336
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7f0470e5f564845b697e721b00c3a7
+      internalID: -1894887195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 336
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675f73354f56bd441adb5dbc92a6c852
+      internalID: 1013387374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 336
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da61276fe0e7ed144ba05f003ff1c8f4
+      internalID: 1024882832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 336
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65547ec68912545bba0700bf8bbc3a
+      internalID: 858837858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b88e5c9f222994f86bd9b424ee06ae
+      internalID: -1460265115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 48
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5392699, y: 0.056054194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc2180b3675994f9c2c27deba399c3
+      internalID: 2121216565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 48
+        height: 74
+      alignment: 9
+      pivot: {x: 0.52243996, y: 0.059693206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bd52ef5c0f90046aa208e03f36db55
+      internalID: 1413302469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d441e36f27deb343972f5eb0be2cc5d
+      internalID: -2032891096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3aba1e6cfb75c4e953f809f6a45bbd
+      internalID: 1651864275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 304
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bc263830bd69d4f857dd5b6cd7d4bf
+      internalID: -1783186566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 304
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ea9871fad19a40aae28795a1b0e69
+      internalID: -2099915151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 304
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba24d26a6a584e64a979ecf35e9692a7
+      internalID: -277583290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 304
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126bc1496d4991b49866e43f0b3d6a35
+      internalID: -223802994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 304
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb62077236b3c8c4d869ac87eab02c2f
+      internalID: -1947490510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 304
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d626262c02f8647a6ea935e3d24bda
+      internalID: 531153028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 304
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b16a1894db8040ab5e2f565d995a5
+      internalID: 18273111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 288
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d044d89034aeb4894e8f7a772bd237
+      internalID: -241946277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093d467a442a53b4eb7b10b538711e66
+      internalID: -1813670927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e225402d1d16d4bae54d814a1284a4
+      internalID: 1453001405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 288
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3f1697c288d294c93ef0172120a806
+      internalID: -915061632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 276
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbcc964dcdf685459e08994f74a8120
+      internalID: -277317597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 274
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5660e9251ad223948bf9ebb75895b541
+      internalID: -737867555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 272
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd705abd04d817c4e95d889b2593db1e
+      internalID: 466309435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 272
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab5dc184640264468d2360d2015f4ae
+      internalID: 1127238715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 272
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d02e10d5c555d40a72b977c95c47e1
+      internalID: -940460035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 272
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f4e24ff7bf245478398252dbba9ad9
+      internalID: -1843230039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3b56dbd71325641bc1b7a1cccc7bf1
+      internalID: -652615873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 432
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52353486320b4bf41b09d26e4b1f7549
+      internalID: 1551358939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade863be0c3d57f4ba07363bc46b177f
+      internalID: -1379159103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 48
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6a029a3dca5a34db57d2aff163585c
+      internalID: -324913378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01968192ae96b554984d639912a68641
+      internalID: -1121637986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e48f1b416b814986cc131d6d45da6
+      internalID: 1432686424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 18
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f909b4a740be5048804709855e4ebdf
+      internalID: -1482976270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 16
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40885339199377a438a615fbbadbc719
+      internalID: -1963251119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f6baf821879bf43a77a11dd91d4fd3
+      internalID: 1876324328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6443381a2f97ce847b4d90a7bdd89247
+      internalID: -141172764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7e79fea20bf384fac61604c7f9404d
+      internalID: -1686730271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121b18bc7436ac4895999fd957d9343
+      internalID: -700720630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d7701362ed38449a6dce8cad9d9c4
+      internalID: -995727301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 16
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dfbfe94c1931548a9b4207970efbfa
+      internalID: 1733510815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8748247fb7ce13e4ca36f090ccbd51db
+      internalID: 1554155875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 17
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54a27e2c6e037438191b5233afce68
+      internalID: -48034020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 18
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d08a87c5b5dce409bdabd21e12fb13
+      internalID: -2094356474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd992c8e63d0648a1cc56d813f8d91
+      internalID: -1316305545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f6608bb99902b45aa9ed8adcb1129c
+      internalID: -1660150331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f635c8a03564d3a419df9de0a38a02cc
+      internalID: 662741527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e820fb3445fdd6547ab8c4eacd7882b7
+      internalID: 1884425445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e9abd3ceecb54b9948604d3930dca
+      internalID: -2037023460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b40c63772c53479344582b1273715
+      internalID: 609922456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c190e352a5357bc458e9240de44328c4
+      internalID: 137218865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcebf0abdc4bec447bae5817166d4889
+      internalID: -633306328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c680ea0bbd1e1f24f93e43111a6f1084
+      internalID: 667692213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cb379395776704dad1633df6d66045
+      internalID: 219893616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8278fe4ee915042ac21e02bdbaa723
+      internalID: -752120396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c40c71b66bdee04c8be4e80d893437c
+      internalID: -1675916147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a185c936a07493a418da9278eea90cc5
+      internalID: -1852144949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5906c6fc8fd1cc44ab9a42431d3da084
+      internalID: 172347250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d8d5090cc31a46b145dff5337925c
+      internalID: -1279093564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08a8b1e04b1a6c40b079e9b0c1e1178
+      internalID: -99048351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4af3564231b754a8b96d481a7db031
+      internalID: -966846199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54178e4ab9c5d9d4c8a5d100fcda8af1
+      internalID: -404466679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a9b7d569f6d74ead2de0b4cdc3cdf
+      internalID: -944498663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca110b74377fcf643830875fd543f9f2
+      internalID: -951778083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4930d3789e9240948b595f8ca3e39a40
+      internalID: -1559946425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20614f0e1d810d94cbb8d2c6830e333e
+      internalID: 1573017199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc86fad0a2f691429dad5cafb523812
+      internalID: 111126633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fb1fb10f9bb254394db3544ce4e378
+      internalID: 1877010476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048216273fee0342868d37094dd3a70
+      internalID: 831335720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a69352e711c34196fd3371eb669ba
+      internalID: 673404526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkable_atlas_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cca3ac27275834a9dcf06be7a96e23
+      internalID: -1303440408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walkable_atlas_sprites_67: -1686730271
+      walkable_atlas_sprites_19: -24812850
+      walkable_atlas_sprites_49: 1453001405
+      walkable_atlas_sprites_13: -339047822
+      walkable_atlas_sprites_21: -1755405514
+      walkable_atlas_sprites_66: -141172764
+      walkable_atlas_sprites_79: 609922456
+      walkable_atlas_sprites_85: -1675916147
+      walkable_atlas_sprites_14: 1130507332
+      walkable_atlas_sprites_35: -1460265115
+      walkable_atlas_sprites_72: -48034020
+      walkable_atlas_sprites_87: 172347250
+      walkable_atlas_sprites_51: -277317597
+      walkable_atlas_sprites_28: 1119318631
+      walkable_atlas_sprites_92: -944498663
+      walkable_atlas_sprites_100: -1303440408
+      walkable_atlas_sprites_11: -1110697626
+      walkable_atlas_sprites_43: -223802994
+      walkable_atlas_sprites_83: 219893616
+      walkable_atlas_sprites_0: -2032006055
+      walkable_atlas_sprites_29: 1867102528
+      walkable_atlas_sprites_84: -752120396
+      walkable_atlas_sprites_93: -951778083
+      walkable_atlas_sprites_40: -1783186566
+      walkable_atlas_sprites_60: -324913378
+      walkable_atlas_sprites_26: 1287428373
+      walkable_atlas_sprites_56: -1843230039
+      walkable_atlas_sprites_77: 1884425445
+      walkable_atlas_sprites_18: 2026958258
+      walkable_atlas_sprites_94: -1559946425
+      walkable_atlas_sprites_30: 1637727503
+      walkable_atlas_sprites_25: 1077052405
+      walkable_atlas_sprites_32: 1013387374
+      walkable_atlas_sprites_96: 111126633
+      walkable_atlas_sprites_9: -1191776702
+      walkable_atlas_sprites_31: -1894887195
+      walkable_atlas_sprites_61: -1121637986
+      walkable_atlas_sprites_37: 1413302469
+      walkable_atlas_sprites_4: 362197821
+      walkable_atlas_sprites_73: -2094356474
+      walkable_atlas_sprites_27: -1640916867
+      walkable_atlas_sprites_12: 1378267075
+      walkable_atlas_sprites_7: 1652220177
+      walkable_atlas_sprites_63: -1482976270
+      walkable_atlas_sprites_24: -2025549251
+      walkable_atlas_sprites_57: -652615873
+      walkable_atlas_sprites_46: 18273111
+      walkable_atlas_sprites_81: -633306328
+      walkable_atlas_sprites_91: -404466679
+      walkable_atlas_sprites_42: -277583290
+      walkable_atlas_sprites_65: 1876324328
+      walkable_atlas_sprites_55: -940460035
+      walkable_atlas_sprites_23: 28601739
+      walkable_atlas_sprites_89: -99048351
+      walkable_atlas_sprites_68: -700720630
+      walkable_atlas_sprites_90: -966846199
+      walkable_atlas_sprites_3: 99694366
+      walkable_atlas_sprites_2: -1870897015
+      walkable_atlas_sprites_97: 1877010476
+      walkable_atlas_sprites_58: 1551358939
+      walkable_atlas_sprites_47: -241946277
+      walkable_atlas_sprites_20: -2085159996
+      walkable_atlas_sprites_1: 741190664
+      walkable_atlas_sprites_36: 2121216565
+      walkable_atlas_sprites_38: -2032891096
+      walkable_atlas_sprites_62: 1432686424
+      walkable_atlas_sprites_5: 1068153340
+      walkable_atlas_sprites_99: 673404526
+      walkable_atlas_sprites_41: -2099915151
+      walkable_atlas_sprites_22: -953104884
+      walkable_atlas_sprites_8: 1334091578
+      walkable_atlas_sprites_33: 1024882832
+      walkable_atlas_sprites_54: 1127238715
+      walkable_atlas_sprites_69: -995727301
+      walkable_atlas_sprites_59: -1379159103
+      walkable_atlas_sprites_71: 1554155875
+      walkable_atlas_sprites_98: 831335720
+      walkable_atlas_sprites_16: -1475616049
+      walkable_atlas_sprites_6: -1021256415
+      walkable_atlas_sprites_17: -2044329521
+      walkable_atlas_sprites_39: 1651864275
+      walkable_atlas_sprites_44: -1947490510
+      walkable_atlas_sprites_95: 1573017199
+      walkable_atlas_sprites_74: -1316305545
+      walkable_atlas_sprites_88: -1279093564
+      walkable_atlas_sprites_53: 466309435
+      walkable_atlas_sprites_50: -915061632
+      walkable_atlas_sprites_78: -2037023460
+      walkable_atlas_sprites_15: 1647420492
+      walkable_atlas_sprites_86: -1852144949
+      walkable_atlas_sprites_52: -737867555
+      walkable_atlas_sprites_64: -1963251119
+      walkable_atlas_sprites_45: 531153028
+      walkable_atlas_sprites_48: -1813670927
+      walkable_atlas_sprites_82: 667692213
+      walkable_atlas_sprites_75: -1660150331
+      walkable_atlas_sprites_76: 662741527
+      walkable_atlas_sprites_34: 858837858
+      walkable_atlas_sprites_10: -736893235
+      walkable_atlas_sprites_70: 1733510815
+      walkable_atlas_sprites_80: 137218865
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
