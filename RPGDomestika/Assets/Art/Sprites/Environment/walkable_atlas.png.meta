@@ -49,7 +49,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -128,7 +128,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -7, y: 6}
+        - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 78e033ac196b11645a1c45b0bda947b6
@@ -338,7 +344,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -2}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 48d4623adc147d54b85cf9328206cfbf
@@ -359,7 +370,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: d32661e4917ba604182dad3f2f972041
@@ -380,7 +397,16 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
+      - - {x: 8, y: 0}
+        - {x: -8, y: 0}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 5641d093019f8af43a44dbf9093f9c03
@@ -401,7 +427,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: -1}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -1}
       tessellationDetail: 0
       bones: []
       spriteID: 142999887b8846f449f15ee3dd308b64
@@ -14888,8 +14919,8 @@ TextureImporter:
       walkable_atlas_246: 730186360
       walkable_atlas_640: -1702948576
       walkable_atlas_84: 1400477318
-      walkable_atlas_256: -2135554139
       walkable_atlas_657: 930486262
+      walkable_atlas_256: -2135554139
       walkable_atlas_202: -1045891824
       walkable_atlas_622: -1715727717
       walkable_atlas_193: -349880533
@@ -15184,11 +15215,11 @@ TextureImporter:
       walkable_atlas_335: 354323555
       walkable_atlas_428: -1948627078
       walkable_atlas_333: 1501208607
-      walkable_atlas_515: 17925155
       walkable_atlas_602: -2090190675
+      walkable_atlas_693: -1802217953
       walkable_atlas_557: 1647956774
       walkable_atlas_479: -397521283
-      walkable_atlas_693: -1802217953
+      walkable_atlas_515: 17925155
       walkable_atlas_393: -946044443
       walkable_atlas_327: 222375068
       walkable_atlas_677: 1308398279
@@ -15315,8 +15346,8 @@ TextureImporter:
       walkable_atlas_447: -637380248
       walkable_atlas_249: 603523907
       walkable_atlas_432: -1539736257
-      walkable_atlas_420: -1288799789
       walkable_atlas_685: -1111662762
+      walkable_atlas_420: -1288799789
       walkable_atlas_523: -601782502
       walkable_atlas_105: 735140957
       walkable_atlas_2: 1919867250
@@ -15362,8 +15393,8 @@ TextureImporter:
       walkable_atlas_680: 1352064576
       walkable_atlas_583: 541030546
       walkable_atlas_211: 1436223449
-      walkable_atlas_378: 1049449160
       walkable_atlas_436: -758767956
+      walkable_atlas_378: 1049449160
       walkable_atlas_46: -758063591
       walkable_atlas_390: 1523089919
       walkable_atlas_435: -1248233783

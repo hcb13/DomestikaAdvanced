@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5157956270828481573}
   - component: {fileID: 3073601989814323151}
   - component: {fileID: 4560259084226969393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BlueTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
