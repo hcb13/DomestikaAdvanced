@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -14828,7 +14840,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: cc50297e43711d34d8365f5e6e9bb7cf
@@ -14849,7 +14866,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: c87dfde97047dd64a9f874dbca456d02
@@ -14870,7 +14891,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: cc824a5c5be1f1e46bb1adbcb68db71c
@@ -14891,7 +14917,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: -1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -1}
       tessellationDetail: 0
       bones: []
       spriteID: 32ac29290fa75bb41a7d444d1fc27478
@@ -15850,8 +15880,8 @@ TextureImporter:
       interior_pack_563: 977819077
       interior_pack_160: -1157608718
       interior_pack_32: 566507658
-      interior_pack_119: -165496694
       interior_pack_672: -988305238
+      interior_pack_119: -165496694
       interior_pack_527: -2107277069
       interior_pack_96: 1287585783
       interior_pack_424: -1110657227
@@ -15950,8 +15980,8 @@ TextureImporter:
       interior_pack_738: 703699998
       interior_pack_42: -162406186
       interior_pack_110: -115013529
-      interior_pack_201: 987220504
       interior_pack_330: 404899145
+      interior_pack_201: 987220504
       interior_pack_318: 2032558452
       interior_pack_116: 151049333
       interior_pack_627: 545147459
@@ -16018,6 +16048,7 @@ TextureImporter:
       interior_pack_715: -158118924
       interior_pack_260: 557973448
       interior_pack_64: 1210936567
+      interior_pack_559: 1060992701
       interior_pack_400: -1570365201
       interior_pack_582: 1146684012
       interior_pack_53: -1531190801
@@ -16032,7 +16063,6 @@ TextureImporter:
       interior_pack_717: -1075015886
       interior_pack_3: 1412439091
       interior_pack_169: 377972365
-      interior_pack_559: 1060992701
       interior_pack_434: 944859402
       interior_pack_12: -773372224
       interior_pack_238: 1940131592
@@ -16291,8 +16321,8 @@ TextureImporter:
       interior_pack_163: 297929001
       interior_pack_306: 1806057358
       interior_pack_88: 382887306
-      interior_pack_138: 706865378
       interior_pack_545: 1034471074
+      interior_pack_138: 706865378
       interior_pack_230: -1417156770
       interior_pack_186: -106176086
       interior_pack_316: 638402643
@@ -16376,13 +16406,13 @@ TextureImporter:
       interior_pack_711: 1663121469
       interior_pack_412: 928454752
       interior_pack_231: -424753466
-      interior_pack_102: -1553263848
+      interior_pack_728: -242362243
       interior_pack_640: 1735397860
       interior_pack_445: -1721616670
+      interior_pack_447: -191531066
       interior_pack_269: 24039417
       interior_pack_670: -2123398058
-      interior_pack_447: -191531066
-      interior_pack_728: -242362243
+      interior_pack_102: -1553263848
       interior_pack_418: 2086995661
       interior_pack_133: 1152372943
       interior_pack_551: -835061655
@@ -16455,11 +16485,11 @@ TextureImporter:
       interior_pack_376: -2024622105
       interior_pack_420: 1822376925
       interior_pack_598: -635055496
+      interior_pack_681: -505690088
       interior_pack_109: 39570286
       interior_pack_326: 1947083503
       interior_pack_483: 1675025740
       interior_pack_362: 1428138605
-      interior_pack_681: -505690088
       interior_pack_338: -1187333391
       interior_pack_351: -147398331
       interior_pack_616: -1542761267
@@ -16474,8 +16504,8 @@ TextureImporter:
       interior_pack_641: -2020786420
       interior_pack_716: -2125676327
       interior_pack_29: 1950309196
-      interior_pack_124: -1317189514
       interior_pack_565: -1030345334
+      interior_pack_124: -1317189514
       interior_pack_365: 885428850
       interior_pack_276: -1147840321
       interior_pack_240: 1648061773
